@@ -1,0 +1,2723 @@
+{
+ "updatedAt": 1788768599750,
+ "asOf": "2026-09-07",
+ "currency": "USD",
+ "notes": [
+  "Sales are confirmed, completed transactions only: eBay sold listings read from the listing page itself, plus eBay and TCGplayer completed sales republished by PriceCharting for the six cards it catalogues. Active listings, ended-unsold listings and listings whose final price is hidden are never counted as sales.",
+  "Only the Plated Legends (metal) Prize Wall printing counts. The foil Release-Event promos that share a card number (for example Ahri #255 'Release Event Prize Pack') are filtered out by listing title.",
+  "PSA populations come from the PSA data widget on eBay listing pages (PSA 10 count and total PSA-graded count for that card) as of the asOf date; cards with no PSA 10 listing on eBay have no population reading yet.",
+  "Raw-market prices are TCGplayer market prices for the ungraded metal card on the asOf date, used only as the basis for the gem-premium component."
+ ],
+ "sources": [
+  "https://www.pricecharting.com/console/riftbound-promo",
+  "https://www.tcgplayer.com/search/riftbound-league-of-legends-trading-card-game/riftbound-organized-play-promotional-cards?q=prize+wall",
+  "https://uvsgames.com/rqlasvegasprizewall/",
+  "https://uvsgames.com/rq-vancouver-prize-wall/"
+ ],
+ "cards": [
+  {
+   "id": "kaisa-247",
+   "champion": "Kai'Sa",
+   "title": "Daughter of the Void",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "247",
+   "of": "298",
+   "query": "riftbound Kai'Sa prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-07-16",
+     "price": 15033,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/117292465671",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL KAI'SA - DAUGHTER OF THE VOID PSA 10",
+     "type": "auction",
+     "bids": 27
+    },
+    {
+     "date": "2026-08-11",
+     "price": 14100,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/117339027036",
+     "title": "2025 RIFTBOUND LEAGUE OF LEGENDS METAL PRIZEWALL #247 KAI'SA PSA 10",
+     "type": "auction",
+     "bids": 36
+    },
+    {
+     "date": "2026-08-29",
+     "price": 8850,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298605411517",
+     "title": "2025 RIFTBOUND LOL PRIZEWALL #247 KAI'SA - DAUGHTER OF THE VOID PSA 10",
+     "type": "auction",
+     "bids": 14
+    },
+    {
+     "date": "2026-08-29",
+     "price": 9800,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/800545780880",
+     "title": "2025 RIFTBOUND LoL ORIGINS PLATED LEGENDS #247 KAI'SA PRIZEWALL PSA 10",
+     "type": "auction",
+     "bids": 35
+    },
+    {
+     "date": "2026-08-30",
+     "price": 9100,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298607519384",
+     "title": "2025 RIFTBOUND: LOL PRIZEWALL #247 KAI'SA - DAUGHTER OF THE VOID PSA 10",
+     "type": "auction",
+     "bids": 42
+    },
+    {
+     "date": "2026-09-03",
+     "price": 8499.99,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298638522432",
+     "title": "2025 RIFTBOUND LEAGUE OF LEGENDS PLATED METAL PRIZEWALL #247 KAI'SA PSA 10",
+     "type": "bin"
+    },
+    {
+     "date": "2026-09-07",
+     "price": 8851,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/278314841763",
+     "title": "Kai'sa - Daughter Of The Void 247 Prizewall Metal Card Riftbound PSA 10 *334",
+     "type": "auction",
+     "bids": 52
+    }
+   ],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/287565389535",
+     "price": 2.25,
+     "type": "auction",
+     "title": "Riftbound LoL Kai'sa Daughter Of The Void Plated Legends 247 Prizewall PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/800603907850",
+     "price": 2025,
+     "type": "auction",
+     "title": "2025 RIFTBOUND: LOL KAI'SA PRIZEWALL ORIGINS PLATED LEGENDS #247 PSA 10",
+     "bids": 22,
+     "ends": "2026-09-09"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/168662064511",
+     "price": 2025,
+     "type": "auction",
+     "title": "RIFTBOUND OGN PLATED METAL PRIZEWALL PROMO 247 KAISA DAUGHTER OF THE VOID PSA 10",
+     "bids": 7,
+     "ends": "2026-09-13"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/117324949845",
+     "price": 20000,
+     "type": "bin",
+     "title": "2025 PRIZEWALL #247 KAI'SA - DAUGHTER OF THE VOID PSA 10 (or Best Offer)"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/298573235528",
+     "price": 23999.99,
+     "type": "bin",
+     "title": "2025 Riftbound Kai'sa Metal #247 Prizewall PSA 10 Origins Prize Wall OGN"
+    }
+   ],
+   "rawMarket": {
+    "price": 2739.2,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 90,
+    "total": 106,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "synced130": 1788768416420
+  },
+  {
+   "id": "volibear-249",
+   "champion": "Volibear",
+   "title": "Relentless Storm",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "249",
+   "of": "298",
+   "query": "riftbound Volibear prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-05-03",
+     "price": 1125,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298259847514?nordt=true",
+     "title": "2025 RIFTBOUND OGN PLATED LEGENDS PRIZEWALL #249 VOLIBEAR - RELENTLESS #2 PSA 10",
+     "type": "auction",
+     "bids": 18
+    },
+    {
+     "date": "2026-05-13",
+     "price": 1376,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/306918465594?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS OGN PRIZEWALL #249 VOLIBEAR  PSA 10",
+     "type": "auction",
+     "bids": 25
+    },
+    {
+     "date": "2026-07-03",
+     "price": 1699,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/236885008899?nordt=true",
+     "title": "2025 PRIZEWALL #249 VOLIBEAR - RELENTLESS STORM PSA 10",
+     "type": "bin"
+    },
+    {
+     "date": "2026-07-03",
+     "price": 1800,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/306932332342?nordt=true",
+     "title": "2025 PRIZEWALL #249 VOLIBEAR - RELENTLESS STORM PSA 10",
+     "type": "offer",
+     "listed": 1800
+    },
+    {
+     "date": "2026-07-05",
+     "price": 2200,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307002015746?nordt=true",
+     "title": "2025 PRIZEWALL #249 VOLIBEAR - RELENTLESS STORM PSA 10",
+     "type": "offer",
+     "listed": 2200
+    },
+    {
+     "date": "2026-08-10",
+     "price": 3600,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307099260207?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL VOLIBEAR RELENTLESS STORM PSA 10",
+     "type": "auction",
+     "bids": 26
+    },
+    {
+     "date": "2026-09-01",
+     "price": 2550,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/800557549921",
+     "title": "2025 Riftbound Promos PrizeWall Metal #249 Volibear Relentless Storm PSA 10",
+     "type": "auction",
+     "bids": 41
+    },
+    {
+     "date": "2026-09-01",
+     "price": 2026,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/800557486438",
+     "title": "2025 Riftbound Promos PrizeWall Metal #249 Volibear Relentless Storm PSA 10",
+     "type": "auction",
+     "bids": 28
+    },
+    {
+     "date": "2026-09-05",
+     "price": 2114,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117381965922",
+     "title": "2025 RIFTBOUND LOL ORIGINS PRIZEWALL #249 VOLIBEAR - RELENTLESS STORM PSA 10",
+     "type": "auction",
+     "bids": 18
+    },
+    {
+     "date": "2026-09-06",
+     "price": 2052,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307143210374",
+     "title": "2025 RIFTBOUND LOL ORGINS PRIZEWALL #249 VOLIBEAR - RELENTLESS STORM PSA 10",
+     "type": "auction",
+     "bids": 22
+    }
+   ],
+   "rawSales": [],
+   "asks": [],
+   "rawMarket": {
+    "price": 1283.31,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "synced130": 1788768419304
+  },
+  {
+   "id": "jinx-251",
+   "champion": "Jinx",
+   "title": "Loose Cannon",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "251",
+   "of": "298",
+   "query": "riftbound Jinx prizewall psa 10",
+   "sales": [
+    {
+     "date": "2025-12-28",
+     "price": 2687,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/306666374969?nordt=true",
+     "title": "2025 RIFTBOUND LEAGUE OF LEGENDS OGN PRIZEWALL #251 JINX - LOOSE CANNON PSA 10",
+     "type": "auction",
+     "bids": 7
+    },
+    {
+     "date": "2026-04-18",
+     "price": 3000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/306813259997?nordt=true",
+     "title": "2025 RIFTBOUND LEAGUE OF LEGENDS METAL PRIZEWALL #251 JINX - LOOSE CANNON PSA 10",
+     "type": "offer",
+     "listed": 3000
+    },
+    {
+     "date": "2026-05-07",
+     "price": 2175,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/377150322174?nordt=true",
+     "title": "Riftbound TCG Jinx Plated Metal Prizewall 251/298 PSA 10",
+     "type": "auction",
+     "bids": 20
+    },
+    {
+     "date": "2026-05-13",
+     "price": 2550,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/377164492925?nordt=true",
+     "title": "Riftbound TCG Jinx Plated Metal Prizewall 251/298 PSA 10",
+     "type": "auction",
+     "bids": 53
+    },
+    {
+     "date": "2026-06-23",
+     "price": 2900,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/800228923252?nordt=true",
+     "title": "Riftbound TCG Jinx Plated Metal Prizewall 251/298 PSA 10",
+     "type": "offer",
+     "listed": 2900
+    },
+    {
+     "date": "2026-07-10",
+     "price": 13000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/257585522624?nordt=true",
+     "title": "2025 PRIZEWALL #251 JINX (LOOSE CANNON) - METAL PRIZE WALL CARD - PSA 10",
+     "type": "offer",
+     "listed": 13000
+    },
+    {
+     "date": "2026-07-17",
+     "price": 15238,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298491883480?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #251 JINX - LOOSE CANNON PSA 10",
+     "type": "auction",
+     "bids": 39
+    },
+    {
+     "date": "2026-08-26",
+     "price": 11150,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117364696414",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #251 JINX LOOSE CANNON PSA 10",
+     "type": "auction",
+     "bids": 26
+    },
+    {
+     "date": "2026-08-29",
+     "price": 8100,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307138170881",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS ORIGINS PLATED LEGENDS PRIZEWALL JINX PSA 10",
+     "type": "auction",
+     "bids": 13
+    },
+    {
+     "date": "2026-08-29",
+     "price": 8988,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307138178910",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS ORIGINS PLATED LEGENDS PRIZEWALL JINX PSA 10",
+     "type": "auction",
+     "bids": 20
+    },
+    {
+     "date": "2026-08-29",
+     "price": 11100,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/800545800649",
+     "title": "2025 RIFTBOUND: LoL OGN-ORIGINS PLATED LEGENDS #251 JINX PRIZEWALL PSA 10",
+     "type": "auction",
+     "bids": 22
+    },
+    {
+     "date": "2026-09-05",
+     "price": 9211,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/377453570397",
+     "title": "2025 Riftbound League Legends Jinx  Loose Cannon Rare Prizewall #251/298 PSA 10",
+     "type": "auction",
+     "bids": 28
+    },
+    {
+     "date": "2026-09-07",
+     "price": 8600,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/278314841766",
+     "title": "Jinx - Loose Cannon 251 Prizewall Metal Card Riftbound PSA 10 *332",
+     "type": "auction",
+     "bids": 43
+    }
+   ],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/377429784870",
+     "price": 14450,
+     "type": "bin",
+     "title": "2025 Riftbound Origins Jinx Prizewall #251 PSA 10 GEM MINT"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/206510942552",
+     "price": 19995,
+     "type": "bin",
+     "title": "Riftbound JINX LOOSE CANNON #251 ORIGINS METAL PRIZEWALL PROMO PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/128031402994",
+     "price": 19999.99,
+     "type": "bin",
+     "title": "2025 Riftbound Origins Jinx Prizewall #251 PSA 10 GEM MINT"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/117358483491",
+     "price": 20000,
+     "type": "bin",
+     "title": "Riftbound Jinx Loose Cannon Plated Metal Prizewall Origins 251/298 PSA 10 (or Best Offer)"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/298573249036",
+     "price": 24999.99,
+     "type": "bin",
+     "title": "2025 Riftbound Jinx Metal #251 Prizewall PSA 10 Origins Prize Wall Arcane OGN"
+    }
+   ],
+   "rawMarket": {
+    "price": 2743.74,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 62,
+    "total": 82,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "synced130": 1788768422418
+  },
+  {
+   "id": "darius-253",
+   "champion": "Darius",
+   "title": "Hand of Noxus",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "253",
+   "of": "298",
+   "query": "riftbound Darius prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-04-08",
+     "price": 1750,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117116849945?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS METAL PRIZEWALL #253 DARIUS PSA 10",
+     "type": "auction",
+     "bids": 10
+    },
+    {
+     "date": "2026-07-01",
+     "price": 2099,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/236884449934?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS METAL PRIZEWALL #253 DARIUS PSA 10",
+     "type": "bin"
+    },
+    {
+     "date": "2026-08-03",
+     "price": 4500,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/257659254845?nordt=true",
+     "title": "Darius #253 Prizewall PSA GEM MT 10 2025 Riftbound OGN",
+     "type": "offer",
+     "listed": 4500
+    },
+    {
+     "date": "2026-08-03",
+     "price": 5000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/287485579586?nordt=true",
+     "title": "Darius - Hand Of Noxus 253 Prizewall Metal Card Riftbound Tcg PSA 10 *174",
+     "type": "auction",
+     "bids": 24
+    },
+    {
+     "date": "2026-09-01",
+     "price": 3310,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/377444701152",
+     "title": "2025 Riftbound Promos PrizeWall Metal #253 Darius Hand of Noxus PSA 10",
+     "type": "auction",
+     "bids": 19
+    },
+    {
+     "date": "2026-09-03",
+     "price": 3151,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/800568115188",
+     "title": "RIFTBOUND: LEAGUE OF LEGENDS DARIUS 2025 OGN PLATED LGNDS #253 PRIZEWALL PSA 10",
+     "type": "auction",
+     "bids": 40
+    }
+   ],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/407137214779",
+     "price": 3999.99,
+     "type": "bin",
+     "title": "2025 RIFTBOUND OGN-ORIGINS PLATED LEGENDS #253 DARIUS PRIZEWALL PSA 10 (or Best Offer)"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/206510944514",
+     "price": 5155,
+     "type": "bin",
+     "title": "2025 RIFTBOUND OGN-ORIGINS PLATED LEGENDS #253 DARIUS PRIZEWALL PSA 10"
+    }
+   ],
+   "pop": {
+    "psa10": 25,
+    "total": 29,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "synced130": 1788768425351
+  },
+  {
+   "id": "ahri-255",
+   "champion": "Ahri",
+   "title": "Nine-Tailed Fox",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "255",
+   "of": "298",
+   "query": "riftbound Ahri prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-03-30",
+     "price": 6500,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/318081182126?nordt=true",
+     "title": "Ã°Å¸Å’Â¸Ã°Å¸Â¦Å  2025 Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10 POP 7",
+     "type": "offer",
+     "listed": 6500
+    },
+    {
+     "date": "2026-03-31",
+     "price": 6600,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/389775583082?nordt=true",
+     "title": "2025 Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10 GEM MINT",
+     "type": "auction",
+     "bids": 31
+    },
+    {
+     "date": "2026-04-08",
+     "price": 5500,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117116849932?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "auction",
+     "bids": 12
+    },
+    {
+     "date": "2026-04-14",
+     "price": 6400,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/277877686040?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "offer",
+     "listed": 6400
+    },
+    {
+     "date": "2026-04-14",
+     "price": 6100,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/366325114496?nordt=true",
+     "title": "2025 Riftbound League of Legends OGN EN Prizewall #255 Ahri PSA 10 GEM MINT",
+     "type": "auction",
+     "bids": 19
+    },
+    {
+     "date": "2026-04-19",
+     "price": 6350,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/277900352987?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "offer",
+     "listed": 6350
+    },
+    {
+     "date": "2026-04-28",
+     "price": 6900,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117144883558?nordt=true",
+     "title": "2025 RIFTBOUND` LEAGUE OF LEGENDS PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "auction",
+     "bids": 28
+    },
+    {
+     "date": "2026-05-07",
+     "price": 7211.11,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/389953455332?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-05-09",
+     "price": 8000,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 Riftbound League of Legends OGN EN Prizewall #255 Ahri PSA 10 GEM MINT #255",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/257474893144?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-05-09",
+     "price": 8674.96,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS ORIGINS PLATED LEGENDS PRIZEWALL AHRI PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/298277059713?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-05-13",
+     "price": 10200,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/377164490801?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-05-17",
+     "price": 8600,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS OGN-PLATED LEGENDS PRIZEWALL #255 AHRI PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/298299112586?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-05-20",
+     "price": 8900,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/800010171795?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-06-02",
+     "price": 8300,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/800055106605?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-06-12",
+     "price": 8650,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298381434296?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS OGN PRIZEWALL #255 AHRI NINE-TAILED FOX PSA 10",
+     "type": "auction",
+     "bids": 40
+    },
+    {
+     "date": "2026-06-23",
+     "price": 10600,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/377256626148?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-06-30",
+     "price": 15000,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/377279240517?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-07-12",
+     "price": 20100,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/298475009895?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-07-14",
+     "price": 20988,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/366526057535?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-07-17",
+     "price": 24305,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/298491883466?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-08-02",
+     "price": 23200,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 Riftbound Ahri Nine-Tail Fox Origins Metal Prizewall #255 PSA 10",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/377374203753?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-08-03",
+     "price": 22600,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117315903940?nordt=true",
+     "title": "2025 PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "auction",
+     "bids": 28
+    },
+    {
+     "date": "2026-08-15",
+     "price": 24000,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/117340268404",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "auction",
+     "bids": 87
+    },
+    {
+     "date": "2026-08-17",
+     "price": 19400,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/168601875045?nordt=true",
+     "title": "Riftbound TCG Ahri Nine-Tailed Fox Plated Origins Metal Prizewall 255/298 PSA 10",
+     "type": "auction",
+     "bids": 38
+    },
+    {
+     "date": "2026-08-17",
+     "price": 19999.99,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/287513037142?nordt=true",
+     "title": "2025 Riftbound Ahri Nine-Tail Fox Origins Metal Prizewall #255 PSA 10",
+     "type": "offer",
+     "listed": 19999.99
+    },
+    {
+     "date": "2026-08-26",
+     "price": 17700,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307131866286",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS ORIGINS PRIZEWALL #255 AHRI PSA 10",
+     "type": "auction",
+     "bids": 54
+    },
+    {
+     "date": "2026-08-28",
+     "price": 16500,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/800545796257",
+     "title": "2025 RIFTBOUND: LoL OGN-ORIGINS PLATED LEGENDS #255 AHRI PRIZEWALL PSA 10",
+     "type": "auction",
+     "bids": 34
+    },
+    {
+     "date": "2026-09-03",
+     "price": 16000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/800568115166",
+     "title": "RIFTBOUND: LoL AHRI 2025 ORIG. PLATED LEG. #255 PRIZEWALL  MBA GOLD DMD PSA 10",
+     "type": "auction",
+     "bids": 48
+    },
+    {
+     "date": "2026-09-04",
+     "price": 16100,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307146967820",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS ORIGINS PLATED LEGENDS PRIZEWALL AHRI PSA 10",
+     "type": "auction",
+     "bids": 65
+    },
+    {
+     "date": "2026-09-04",
+     "price": 15600,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/168637005757",
+     "title": "RIFTBOUND ORIGINS PLATED METAL PRIZEWALL #255 AHRI NINE-TAILED FOX PSA 10",
+     "type": "auction",
+     "bids": 20
+    },
+    {
+     "date": "2026-09-07",
+     "price": 15500,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307161970370",
+     "title": "2025 PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "bin"
+    },
+    {
+     "date": "2026-09-07",
+     "price": 15100,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/278314841764",
+     "title": "Ahri - Nine-Tailed Fox 255 Prizewall Metal Card Riftbound PSA 10 *609",
+     "type": "auction",
+     "bids": 52
+    }
+   ],
+   "rawSales": [
+    {
+     "date": "2026-05-29",
+     "price": 4450,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298"
+    },
+    {
+     "date": "2026-06-04",
+     "price": 5000,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound METAL Card ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Ahri Nine-Tailed Fox - Prize Wall Plated Legend 255/298"
+    },
+    {
+     "date": "2026-06-04",
+     "price": 4750,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound METAL Card ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Ahri Nine-Tailed Fox - Prize Wall Plated Legend 255/298"
+    },
+    {
+     "date": "2026-06-14",
+     "price": 4050.78,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 Riftbound League Of Legends Ahri Plated Metal Prizewall #255"
+    },
+    {
+     "date": "2026-06-18",
+     "price": 5400,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 Riftbound TCG Ahri Plated Metal Prizewall 255/298 Sealed"
+    },
+    {
+     "date": "2026-06-30",
+     "price": 5300,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298"
+    },
+    {
+     "date": "2026-07-01",
+     "price": 9800,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound METAL Card ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Ahri Nine-Tailed Fox - Prize Wall Plated Legend 255/298"
+    },
+    {
+     "date": "2026-07-16",
+     "price": 11500,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound Prizewall Ahri Metal OGN 255/298 255/298"
+    },
+    {
+     "date": "2026-07-19",
+     "price": 12500,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound METAL Card ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Ahri Nine-Tailed Fox - Prize Wall"
+    },
+    {
+     "date": "2026-07-24",
+     "price": 13424.34,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound TCG Ahri Origins Plated Metal Prizewall 255/298"
+    }
+   ],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/117389603603",
+     "price": 0.99,
+     "type": "auction",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PLATED LEGENDS PRIZEWALL #255 AHRI PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/287533327382",
+     "price": 19500,
+     "type": "bin",
+     "title": "Riftbound TCG Ahri Nine-Tailed Fox Plated Origins Metal Prizewall 255/298 PSA 10 (or Best Offer)"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/407087637905",
+     "price": 24444.44,
+     "type": "bin",
+     "title": "Riftbound TCG Ahri Nine-Tailed Fox Plated Origins Metal Prizewall 255/298 PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/188655011920",
+     "price": 25000,
+     "type": "bin",
+     "title": "Riftbound TCG Ahri Nine-Tailed Fox Plated Origins Metal Prizewall 255/298 PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/327292556819",
+     "price": 25210.5,
+     "type": "bin",
+     "title": "Riftbound TCG Ahri Plated Metal Prizewall 255/298 PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/366567176258",
+     "price": 28000,
+     "type": "bin",
+     "title": "PSA 10 Ahri #255 PRIZEWALL Riftbound League Of Legends OGN Origins Plated"
+    }
+   ],
+   "rawMarket": {
+    "price": 9999.99,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 144,
+    "total": 163,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "synced130": 1788768428473
+  },
+  {
+   "id": "leesin-257",
+   "champion": "Lee Sin",
+   "title": "Blind Monk",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "257",
+   "of": "298",
+   "query": "riftbound Lee Sin prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-07-11",
+     "price": 3500,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/257616782989?nordt=true",
+     "title": "2025 Riftbound OGN Lee Sin #257 Legend - PSA 10 GEM MT - Blind Monk Prizewall",
+     "type": "offer",
+     "listed": 3500
+    },
+    {
+     "date": "2026-08-19",
+     "price": 6100,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/318720691748?nordt=true",
+     "title": "2025 RIFTBOUND OGN EN Lee Sin Prizewall #257 PSA 10",
+     "type": "auction",
+     "bids": 9
+    },
+    {
+     "date": "2026-08-26",
+     "price": 4000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/366614136868",
+     "title": "2025 Riftbound Origins EN Prizewall #257 Lee Sin Metal PSA 10 GEM MINT",
+     "type": "auction",
+     "bids": 22
+    }
+   ],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/820063921303",
+     "price": 10999.99,
+     "type": "bin",
+     "title": "Riftbound Lee Sin Plated Metal Prize Wall Origins 257/298 PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/117358483487",
+     "price": 12000,
+     "type": "bin",
+     "title": "Riftbound Lee Sin Blind Monk Plated Metal Prizewall Origins 257/298 PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1024.98,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 33,
+    "total": 36,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "synced130": 1788768431327
+  },
+  {
+   "id": "yasuo-259",
+   "champion": "Yasuo",
+   "title": "Unforgiven",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "259",
+   "of": "298",
+   "query": "riftbound Yasuo prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-02-23",
+     "price": 2663,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/287142098332?nordt=true",
+     "title": "Riftbound League of Legends Yasuo OGN Prizewall #259 PSA 10 Gem Mint",
+     "type": "auction",
+     "bids": 32
+    },
+    {
+     "date": "2026-04-09",
+     "price": 2076,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/377079834040?nordt=true",
+     "title": "2025 Riftbound TCG Origins OGN EN Prizewall #259 Yasuo PSA 10 GEM MINT",
+     "type": "auction",
+     "bids": 29
+    },
+    {
+     "date": "2026-04-21",
+     "price": 1384,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/389885893615?nordt=true",
+     "title": "2025 Riftbound TCG Origins OGN EN Prizewall #259 Yasuo PSA 10 GEM MINT",
+     "type": "auction",
+     "bids": 25
+    },
+    {
+     "date": "2026-05-07",
+     "price": 1702,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/377150647993?nordt=true",
+     "title": "2025 Riftbound OGN EN Prizewall #259 Yasuo PSA 10 GEM MINT",
+     "type": "auction",
+     "bids": 32
+    },
+    {
+     "date": "2026-07-03",
+     "price": 3000,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/298073730913",
+     "title": "2025 RIFTBOUND LEAGUE OF LEGENDS METAL PRIZEWALL #259 YASUO - UNFORGIVEN PSA 10",
+     "type": "bin",
+     "note": "Listed at $3,000 or Best Offer; eBay shows the list price for Buy-It-Now sales, so the true figure may be lower."
+    },
+    {
+     "date": "2026-07-14",
+     "price": 3000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/188640301858?nordt=true",
+     "title": "2025 RIFTBOUND LEAGUE OF LEGENDS METAL PRIZEWALL #259 YASUO - UNFORGIVEN PSA 10",
+     "type": "offer",
+     "listed": 3000
+    },
+    {
+     "date": "2026-07-20",
+     "price": 8000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307073850909?nordt=true",
+     "title": "2025 PRIZEWALL #259 YASUO - UNFORGIVEN PSA 10",
+     "type": "offer",
+     "listed": 8000
+    }
+   ],
+   "rawSales": [],
+   "asks": [],
+   "rawMarket": {
+    "price": 1598.49,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 45,
+    "total": 53,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "synced130": 1788768434361
+  },
+  {
+   "id": "leona-261",
+   "champion": "Leona",
+   "title": "Radiant Dawn",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "261",
+   "of": "298",
+   "query": "riftbound Leona prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-04-08",
+     "price": 1525,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117116847138?nordt=true",
+     "title": "2025 RIFTBOUND METAL PRIZEWALL #261 LEONA RADIANT DAWN PSA 10",
+     "type": "auction",
+     "bids": 22
+    },
+    {
+     "date": "2026-05-07",
+     "price": 1730,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/389954004236?nordt=true",
+     "title": "2025 Riftbound OGN EN Prizewall #261 Leona PSA 10 GEM MINT",
+     "type": "auction",
+     "bids": 31
+    },
+    {
+     "date": "2026-05-08",
+     "price": 1541,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/306909739735?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PLATED LEGENDS PRIZEWALL #261 LEONA PSA 10",
+     "type": "auction",
+     "bids": 17
+    },
+    {
+     "date": "2026-08-03",
+     "price": 4600,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/278219362161?nordt=true",
+     "title": "Leona - Radiant Dawn 261 Prizewall Metal Card Riftbound Tcg PSA 10 *176",
+     "type": "auction",
+     "bids": 26
+    },
+    {
+     "date": "2026-08-30",
+     "price": 3100,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307139955638",
+     "title": "2025 RIFTBOUND LOL PRIZEWALL #261 LEONA - RADIANT DAWN PSA 10",
+     "type": "auction",
+     "bids": 25
+    }
+   ],
+   "rawSales": [
+    {
+     "date": "2026-02-02",
+     "price": 1575,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound LEONA Radiant Dawn METAL Card Houston Prize Wall Promo SEALED #193a"
+    },
+    {
+     "date": "2026-02-05",
+     "price": 1999.99,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound Leona Radiant Dawn Metal Card Houston Regional Prize Wall 1 of 35"
+    },
+    {
+     "date": "2026-02-06",
+     "price": 1700,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound Leona Radiant Dawn Metal Card Houston Prize Wall Promo Sealed #193a"
+    },
+    {
+     "date": "2026-02-07",
+     "price": 1850,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound LEONA Radiant Dawn METAL Card Houston Prize Wall Exclusive Promo"
+    },
+    {
+     "date": "2026-03-08",
+     "price": 1750,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound LEONA Radiant Dawn METAL Card Houston Prize Wall Exclusive Promo"
+    },
+    {
+     "date": "2026-03-24",
+     "price": 1048.73,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound Leona METAL PLATED Legend - Prize Wall SEALED - Radiant Dawn #261"
+    },
+    {
+     "date": "2026-03-29",
+     "price": 1161,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound LEONA - Radiant Dawn METAL Card Vegas Prize Wall Exclusive English #261"
+    },
+    {
+     "date": "2026-04-11",
+     "price": 1276,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound METAL Card ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Leona Radiant Dawn - Vegas Prize Wall Exclusive 261/298"
+    },
+    {
+     "date": "2026-04-17",
+     "price": 1125,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound METAL Card ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Leona Radiant Dawn - Prize Wall Exclusive 261/298"
+    },
+    {
+     "date": "2026-04-26",
+     "price": 1799.99,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound LEONA Radiant Dawn METAL Card Regional Prize Wall Exclusive Promo"
+    },
+    {
+     "date": "2026-04-27",
+     "price": 1150,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound METAL Card ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Leona Radiant Dawn - Prize Wall Exclusive #1"
+    },
+    {
+     "date": "2026-05-11",
+     "price": 1089,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Leona - Radiant Dawn (Metal) #261 Near Mint English Metal"
+    },
+    {
+     "date": "2026-05-20",
+     "price": 1100,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound LEONA - Radiant Dawn METAL Card Vegas Prize Wall Exclusive English #261"
+    },
+    {
+     "date": "2026-06-06",
+     "price": 888.88,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "RIFTBOUND METAL Leona Radiant Dawn 261 OGN Exclusive Prize Wall Promo ENG 261/298"
+    },
+    {
+     "date": "2026-06-22",
+     "price": 1400,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Leona - Radiant Dawn (Metal) #261 Near Mint English Metal"
+    },
+    {
+     "date": "2026-06-23",
+     "price": 1100,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Leona - Radiant Dawn (Metal) #261 Near Mint English Metal"
+    },
+    {
+     "date": "2026-06-25",
+     "price": 1999.99,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Leona - Radiant Dawn (Metal) #261 Near Mint English Metal"
+    }
+   ],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/128025807791",
+     "price": 6000,
+     "type": "bin",
+     "title": "Riftbound Leona Radiant Dawn Plated Metal Prizewall Origins 261/298 PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1499.99,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 29,
+    "total": 36,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "synced130": 1788768437401
+  },
+  {
+   "id": "teemo-263",
+   "champion": "Teemo",
+   "title": "Swift Scout",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "263",
+   "of": "298",
+   "query": "riftbound Teemo prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-04-10",
+     "price": 3500,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298083884492?nordt=true",
+     "title": "2025 RIFTBOUND LEAGUE OF LEGENDS METAL PRIZEWALL #263 TEEMO - SWIFT SCOUT PSA 10",
+     "type": "bin"
+    },
+    {
+     "date": "2026-07-19",
+     "price": 18228.24,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 RIFTBOUND: LOL ORIGINS PLATED LEGENDS #263 TEEMO PRIZEWALL PSA 10 #263",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/307048364846?nordt=true&rt=nc&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5338783773&customid=noId&toolid=10001"
+    },
+    {
+     "date": "2026-08-10",
+     "price": 16600,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307099122170?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #263 TEEMO SWIFT SCOUT PSA 10",
+     "type": "auction",
+     "bids": 36
+    },
+    {
+     "date": "2026-08-22",
+     "price": 12600,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298586387051",
+     "title": "2025 RIFTBOUND ORIGINS LEAGUE OF LEGEND PLATED METAL PRIZEWALL #263 TEEMO PSA 10",
+     "type": "auction",
+     "bids": 38
+    },
+    {
+     "date": "2026-08-31",
+     "price": 9000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298609167022",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS ORIGINS PLATED LEGENDS PRIZEWALL TEEMO PSA 10",
+     "type": "auction",
+     "bids": 31
+    },
+    {
+     "date": "2026-09-03",
+     "price": 6951,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307146314546",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #263 TEEMO - SWIFT SCOUT PSA 10",
+     "type": "auction",
+     "bids": 24
+    },
+    {
+     "date": "2026-09-03",
+     "price": 6450,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307145917424",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS OGN PRIZEWALL #263 TEEMO - SWIFT SCOUT PSA 10",
+     "type": "auction",
+     "bids": 42
+    },
+    {
+     "date": "2026-09-07",
+     "price": 7878,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/278314917182",
+     "title": "Teemo - Swift Scout 263 Prizewall METAL CARD Riftbound PSA 10 *437",
+     "type": "auction",
+     "bids": 38
+    }
+   ],
+   "rawSales": [
+    {
+     "date": "2026-07-10",
+     "price": 2199.99,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Teemo - Swift Scout (Metal) (Prize Wall) #263 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-07-18",
+     "price": 6000,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Teemo - Swift Scout (Metal) (Prize Wall) #263 Near Mint English Prizewall"
+    }
+   ],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/237054387153",
+     "price": 5000,
+     "type": "auction",
+     "title": "Riftbound Teemo Swift Scout Plated Metal Prizewall Origins 263/298 PSA 10",
+     "bids": 0,
+     "ends": "2026-09-13"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/128025807792",
+     "price": 17500,
+     "type": "bin",
+     "title": "Riftbound Teemo Swift Scout Plated Metal Prizewall Origins 263/298 PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/298573250381",
+     "price": 24999.99,
+     "type": "bin",
+     "title": "2025 Riftbound Teemo Metal #263 Prizewall PSA 10 Origins Prize Wall OGN"
+    }
+   ],
+   "rawMarket": {
+    "price": 4400,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 57,
+    "total": 67,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "synced130": 1788768440389
+  },
+  {
+   "id": "viktor-265",
+   "champion": "Viktor",
+   "title": "Herald of the Arcane",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "265",
+   "of": "298",
+   "query": "riftbound Viktor prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-03-28",
+     "price": 7000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/318072957990?nordt=true",
+     "title": "2025 Riftbound TCG Viktor And Kai\\'sa Plated Metal Prizewall PSA 10 Bundle",
+     "type": "offer",
+     "listed": 7000
+    },
+    {
+     "date": "2026-09-06",
+     "price": 4595,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307139476471",
+     "title": "2025 RIFTBOUND LOL PRIZEWALL #265 VIKTOR - HERALD OF THE ARCANE PSA 10",
+     "type": "auction",
+     "bids": 17
+    }
+   ],
+   "rawSales": [],
+   "asks": [],
+   "rawMarket": {
+    "price": 1750,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "synced130": 1788768443612
+  },
+  {
+   "id": "missfortune-267",
+   "champion": "Miss Fortune",
+   "title": "Bounty Hunter",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "267",
+   "of": "298",
+   "query": "riftbound Miss Fortune prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-03-10",
+     "price": 1461,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/377004156641?nordt=true",
+     "title": "2025 Riftbound OGN EN Prizewall #267 Miss Fortune PSA 10 GEM MINT",
+     "type": "auction",
+     "bids": 18
+    },
+    {
+     "date": "2026-04-08",
+     "price": 1725.27,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298176802033?nordt=true",
+     "title": "2025 RIFTBOUND METAL PRIZEWALL #267 MISS FORTUNE BOUNTY HUNTER PSA 10",
+     "type": "auction",
+     "bids": 14
+    },
+    {
+     "date": "2026-04-10",
+     "price": 2000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298210258098?nordt=true",
+     "title": "2025 PRIZEWALL #267 MISS FORTUNE - BOUNTY HUNTER PSA 10",
+     "type": "bin"
+    },
+    {
+     "date": "2026-05-11",
+     "price": 1225,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298281334407?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS ORIGINS PRIZEWALL #267 MISS FORTUNE PSA 10",
+     "type": "auction",
+     "bids": 31
+    },
+    {
+     "date": "2026-06-13",
+     "price": 2250,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound Miss Fortune Bounty Hunter Metal Plated Card Prize Wall PSA 10 267/298",
+     "type": "offer",
+     "listed": 3749.99,
+     "url": "https://www.ebay.com/itm/287175542177",
+     "note": "Best Offer accepted against a $3,749.99 list; PriceCharting reports the accepted price."
+    },
+    {
+     "date": "2026-06-30",
+     "price": 3699.99,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "2025 MISS FORTUNE - BOUNTY HUNTER 267 PRIZEWALL RIFTBOUND PSA 10 #267",
+     "type": "auction",
+     "url": "https://www.ebay.com/itm/297994228564"
+    },
+    {
+     "date": "2026-07-12",
+     "price": 5000,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/178303115794?nordt=true",
+     "title": "2025 MISS FORTUNE - BOUNTY HUNTER Riftbound: League of Legends PRIZEWALL PSA 10",
+     "type": "bin"
+    },
+    {
+     "date": "2026-07-16",
+     "price": 8000,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/117292465612",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL MISS FORTUNE - BOUNTY HUNTER PSA 10",
+     "type": "auction",
+     "bids": 26
+    },
+    {
+     "date": "2026-07-29",
+     "price": 7500,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/318607160719?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL MISS FORTUNE - BOUNTY HUNTER PSA 10",
+     "type": "offer",
+     "listed": 7500
+    },
+    {
+     "date": "2026-07-29",
+     "price": 6096.26,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/407089865255?nordt=true",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL MISS FORTUNE - BOUNTY HUNTER PSA 10",
+     "type": "auction",
+     "bids": 37
+    },
+    {
+     "date": "2026-08-08",
+     "price": 7500,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/318655850651?nordt=true",
+     "title": "2025 RIFTBOUND METAL PRIZEWALL MISS FORTUNE - BOUNTY HUNTER PSA 10",
+     "type": "offer",
+     "listed": 7500
+    },
+    {
+     "date": "2026-08-30",
+     "price": 6150,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117372257535",
+     "title": "2025  RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL MISS FORTUNE BOUNTY HUNTER PSA 10",
+     "type": "auction",
+     "bids": 36
+    },
+    {
+     "date": "2026-09-06",
+     "price": 6188.88,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298611265915",
+     "title": "2025 RIFTBOUND LOL ORGINS PRIZEWALL #267 MISS FORTUNE - BOUNTY HUNTER PSA 10",
+     "type": "auction",
+     "bids": 28
+    }
+   ],
+   "rawSales": [
+    {
+     "date": "2026-07-06",
+     "price": 2000,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound MISS FORTUNE Bounty Hunter METAL Card Houston Prize Wall Promo"
+    },
+    {
+     "date": "2026-07-07",
+     "price": 23.79,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune - Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-07-12",
+     "price": 2250,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "MISS FORTUNE Bounty Hunter METAL Card Hartford Prize Wall Promo Riftbound"
+    },
+    {
+     "date": "2026-07-12",
+     "price": 23.79,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune - Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-07-14",
+     "price": 2100,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "MISS FORTUNE Bounty Hunter METAL Card Hartford Prize Wall Promo Riftbound"
+    },
+    {
+     "date": "2026-07-18",
+     "price": 22,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune - Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-07-21",
+     "price": 194.97,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune - Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-08-07",
+     "price": 75,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune - Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-08-11",
+     "price": 67.5,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune - Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-08-14",
+     "price": 64.5,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune, Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-08-15",
+     "price": 66,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune, Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-08-18",
+     "price": 44,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune, Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-08-27",
+     "price": 39,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune, Bounty Hunter #267 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-09-06",
+     "price": 34.93,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Miss Fortune, Bounty Hunter #267 Near Mint English Prizewall"
+    }
+   ],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/257621804228",
+     "price": 10000,
+     "type": "bin",
+     "title": "2025 Riftbound Miss Fortune Prize Wall PSA 10 (or Best Offer)"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/168622267669",
+     "price": 10026.73,
+     "type": "bin",
+     "title": "PSA 10 - Miss Fortune 267/298 METAL Prizewall Promo Riftbound League of Legends"
+    }
+   ],
+   "rawMarket": {
+    "price": 1999,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 49,
+    "total": 58,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "synced130": 1788768446371
+  },
+  {
+   "id": "sett-269",
+   "champion": "Sett",
+   "title": "The Boss",
+   "set": "OGN",
+   "setName": "Origins",
+   "number": "269",
+   "of": "298",
+   "query": "riftbound Sett prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/117397711757",
+     "price": 5999,
+     "type": "bin",
+     "title": "RIFTBOUND: LEAGUE OF LEGENDS OGN-ORIGINS PLATED LEGENDS SETT - THE BOSS PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/267735486109",
+     "price": 10000,
+     "type": "bin",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS ORIGINS PLATED LEGENDS PRIZEWALL#269 PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1586.93,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 11,
+    "total": 22,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "annie-017",
+   "champion": "Annie",
+   "title": "Dark Child",
+   "set": "OGS",
+   "setName": "Origins: Proving Grounds",
+   "number": "017",
+   "of": "024",
+   "query": "riftbound Annie prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-07-16",
+     "price": 8100,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/117292465620",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #017 ANNIE - DARK CHILD PSA 10",
+     "type": "auction",
+     "bids": 20
+    }
+   ],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/307163708177",
+     "price": 0.99,
+     "type": "auction",
+     "title": "2025 RIFTBOUND LOL ORIGINS PRIZEWALL #017 ANNIE - DARK CHILD PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/267765601947",
+     "price": 4999.99,
+     "type": "bin",
+     "title": "2025 RIFTBOUND PRIZEWALL #017 ANNIE - DARK CHILD PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/236951940809",
+     "price": 14945,
+     "type": "bin",
+     "title": "Riftbound ANNIE DARK CHILD #017 ORIGINS METAL PRIZEWALL PROMO PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1850,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 45,
+    "total": 52,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "masteryi-019",
+   "champion": "Master Yi",
+   "title": "Wuju Bladesman",
+   "set": "OGS",
+   "setName": "Origins: Proving Grounds",
+   "number": "019",
+   "of": "024",
+   "query": "riftbound Master Yi prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/407181417590",
+     "price": 7499.95,
+     "type": "bin",
+     "title": "2025 RIFTBOUND: LEAGUE OF LEGENDS PRIZEWALL #019 MASTER YI WUJU BLADESMAN PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/128025807790",
+     "price": 9000,
+     "type": "bin",
+     "title": "Riftbound Master Yi Wuju Bladesman Plated Metal Prizewall Origins 019/298 PSA 10 (or Best Offer)"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/366596354041",
+     "price": 10000,
+     "type": "bin",
+     "title": "Riftbound MASTER YI WUJU BLADESMAN #019 ORIGINS METAL PRIZEWALL PROMO PSA 10"
+    }
+   ],
+   "rawMarket": {
+    "price": 2222.91,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 32,
+    "total": 38,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   },
+   "disambig": "019|bladesman|origins|ogs|proving"
+  },
+  {
+   "id": "lux-021",
+   "champion": "Lux",
+   "title": "Lady of Luminosity",
+   "set": "OGS",
+   "setName": "Origins: Proving Grounds",
+   "number": "021",
+   "of": "024",
+   "query": "riftbound Lux prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/117358483489",
+     "price": 18000,
+     "type": "bin",
+     "title": "Riftbound Lux Lady of Luminosity Plated Metal Prizewall Origins 021/298 PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 2850,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 40,
+    "total": 46,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "garen-023",
+   "champion": "Garen",
+   "title": "Might of Demacia",
+   "set": "OGS",
+   "setName": "Origins: Proving Grounds",
+   "number": "023",
+   "of": "024",
+   "query": "riftbound Garen prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/168545646858",
+     "price": 16000,
+     "type": "bin",
+     "title": "Riftbound GAREN MIGHT OF DEMACIA #023 ORIGINS METAL PRIZEWALL PROMO PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1999.99,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 7,
+    "total": 9,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "rumble-181",
+   "champion": "Rumble",
+   "title": "Mechanized Menace",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "181",
+   "of": "221",
+   "query": "riftbound Rumble prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [],
+   "rawMarket": {
+    "price": 1333.33,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   }
+  },
+  {
+   "id": "lucian-183",
+   "champion": "Lucian",
+   "title": "Purifier",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "183",
+   "of": "221",
+   "query": "riftbound Lucian prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [],
+   "rawMarket": {
+    "price": 1350,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   }
+  },
+  {
+   "id": "draven-185",
+   "champion": "Draven",
+   "title": "Glorious Executioner",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "185",
+   "of": "221",
+   "query": "riftbound Draven prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/257708609227",
+     "price": 5000,
+     "type": "bin",
+     "title": "2026 Riftbound SFD Draven Prizewall PSA 10 (or Best Offer)"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/820063964097",
+     "price": 9999.99,
+     "type": "bin",
+     "title": "Riftbound Draven Plated Metal Prize Wall Spiritforged 185 /221 PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 2200,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 18,
+    "total": 23,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "reksai-187",
+   "champion": "Rek'Sai",
+   "title": "Void Burrower",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "187",
+   "of": "221",
+   "query": "riftbound Rek'Sai prizewall psa 10",
+   "sales": [],
+   "rawSales": [
+    {
+     "date": "2026-07-14",
+     "price": 949.99,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Rek'sai - Void Burrower (Metal) (Prize Wall) #187 Near Mint English Prize Wall"
+    },
+    {
+     "date": "2026-07-17",
+     "price": 999,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Rek'sai - Void Burrower (Metal) (Prize Wall) #187 Near Mint English Prize Wall"
+    },
+    {
+     "date": "2026-07-23",
+     "price": 1150,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Rek'sai - Void Burrower (Metal) (Prize Wall) #187 Near Mint English Prize Wall"
+    },
+    {
+     "date": "2026-07-28",
+     "price": 1600,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Riftbound Rek'Sai Prize Wall METAL Card Spiritforged 187/221 NM LoL TCG 187/221"
+    },
+    {
+     "date": "2026-08-03",
+     "price": 1100,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Rek'sai - Void Burrower (Metal) (Prize Wall) #187 Near Mint English Prize Wall"
+    }
+   ],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/287525350304",
+     "price": 5000,
+     "type": "bin",
+     "title": "Rek'sai - Void Burrower 187 Prizewall Riftbound Metal PSA 10 SFD-SPIRITFORGED (or Best Offer)"
+    }
+   ]
+  },
+  {
+   "id": "ornn-189",
+   "champion": "Ornn",
+   "title": "Fire Below the Mountain",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "189",
+   "of": "221",
+   "query": "riftbound Ornn prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": []
+  },
+  {
+   "id": "jax-193",
+   "champion": "Jax",
+   "title": "Grandmaster at Arms",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "193",
+   "of": "221",
+   "query": "riftbound Jax prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/117394437370",
+     "price": 0.99,
+     "type": "auction",
+     "title": "2026 RIFTBOUND: LEAGUE OF LEGENDS SPIRITFORGED PLATED PRIZEWALL #193 JAX PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/407142151921",
+     "price": 4000,
+     "type": "bin",
+     "title": "2026 RIFTBOUND METAL PRIZEWALL #193 JAX - GRANDMASTER AT ARMS PSA 10 Gem Mint"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/407139787079",
+     "price": 5999.95,
+     "type": "bin",
+     "title": "2026 RIFTBOUND METAL PRIZEWALL #193 JAX - GRANDMASTER AT ARMS PSA 10 Gem Mint"
+    }
+   ],
+   "rawMarket": {
+    "price": 1116.65,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 13,
+    "total": 13,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "irelia-195",
+   "champion": "Irelia",
+   "title": "Blade Dancer",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "195",
+   "of": "221",
+   "query": "riftbound Irelia prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-07-09",
+     "price": 3299,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/236882801342",
+     "title": "2026 RIFTBOUND: LEAGUE OF LEGENDS SFD EN METAL PRIZEWALL #195 IRELIA PSA 10",
+     "type": "bin"
+    }
+   ],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/168662061386",
+     "price": 207.5,
+     "type": "auction",
+     "title": "RIFTBOUND SFD PLATED METAL PRIZEWALL PROMO #195 IRELIA BLADE DANCER PSA 10",
+     "bids": 8,
+     "ends": "2026-09-13"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/298561423984",
+     "price": 10000,
+     "type": "bin",
+     "title": "2026 RIFTBOUND: LEAGUE OF LEGENDS SFD PRIZEWALL #195 IRELIA BLADE DANCER PSA 10"
+    },
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/298573229578",
+     "price": 19999.99,
+     "type": "bin",
+     "title": "2026 Riftbound Irelia Prizewall Metal PSA 10 #195 Spiritforged Prize Wall SFD"
+    }
+   ],
+   "rawMarket": {
+    "price": 3500,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 56,
+    "total": 60,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "azir-197",
+   "champion": "Azir",
+   "title": "Emperor of the Sands",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "197",
+   "of": "221",
+   "query": "riftbound Azir prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [],
+   "rawMarket": {
+    "price": 1289.67,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   }
+  },
+  {
+   "id": "ezreal-199",
+   "champion": "Ezreal",
+   "title": "Prodigal Explorer",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "199",
+   "of": "221",
+   "query": "riftbound Ezreal prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-09-04",
+     "price": 3050,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/117381267965",
+     "title": "2026 RIFTBOUND LOL SPIRITFORGED PRIZEWALL #199 EZREAL - PRODIGAL EXPLORER PSA 10",
+     "type": "auction",
+     "bids": 28
+    }
+   ],
+   "rawSales": [],
+   "asks": [],
+   "pop": {
+    "psa10": 31,
+    "total": 33,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "renata-201",
+   "champion": "Renata Glasc",
+   "title": "Chem-Baroness",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "201",
+   "of": "221",
+   "query": "riftbound Renata Glasc prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [],
+   "rawMarket": {
+    "price": 1275,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   }
+  },
+  {
+   "id": "sivir-203",
+   "champion": "Sivir",
+   "title": "Battle Mistress",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "203",
+   "of": "221",
+   "query": "riftbound Sivir prizewall psa 10",
+   "sales": [],
+   "rawSales": [
+    {
+     "date": "2026-07-14",
+     "price": 949.95,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Sivir - Battle Mistress (Metal) (Prize Wall) #203 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-08-04",
+     "price": 2000,
+     "source": "tcgplayer",
+     "via": "pricecharting",
+     "title": "Sivir - Battle Mistress (Metal) (Prize Wall) #203 Near Mint English Prizewall"
+    },
+    {
+     "date": "2026-08-11",
+     "price": 2500,
+     "source": "ebay",
+     "via": "pricecharting",
+     "title": "Sivir - Battle Mistress (Metal) (Prize Wall) - Riftbound Atlanta Regional (OPP) #SFD 202"
+    }
+   ],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/287525350306",
+     "price": 9000,
+     "type": "bin",
+     "title": "Sivir - Battle Mistress 203 Prizewall Riftbound METAL PSA 10 SFD-SPIRITFORGED (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1499.98,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 15,
+    "total": 21,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "fiora-205",
+   "champion": "Fiora",
+   "title": "Grand Duelist",
+   "set": "SFD",
+   "setName": "Spiritforged",
+   "number": "205",
+   "of": "221",
+   "query": "riftbound Fiora prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [],
+   "rawMarket": {
+    "price": 817.32,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   }
+  },
+  {
+   "id": "jhin-181",
+   "champion": "Jhin",
+   "title": "Virtuoso",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "181",
+   "of": "219",
+   "query": "riftbound Jhin prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/298640698991",
+     "price": 9944.44,
+     "type": "bin",
+     "title": "RIFTBOUND: LEAGUE OF LEGENDS UNL-UNLEASHED PLATED LEGENDS JHIN - VIRTUOSO PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1300,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 2,
+    "total": 2,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "rengar-183",
+   "champion": "Rengar",
+   "title": "Pridestalker",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "183",
+   "of": "219",
+   "query": "riftbound Rengar prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/820063815311",
+     "price": 9999.99,
+     "type": "bin",
+     "title": "2026 RIFTBOUND UNLEASHED PRIZE WALL #183 RENGAR OFFICIAL EVENT PRIZE PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1275,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 4,
+    "total": 4,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "pyke-185",
+   "champion": "Pyke",
+   "title": "Bloodharbor Ripper",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "185",
+   "of": "219",
+   "query": "riftbound Pyke prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/820063870080",
+     "price": 9999.99,
+     "type": "bin",
+     "title": "2026 RIFTBOUND UNLEASHED PRIZE WALL #185 PYKE OFFICIAL EVENT PRIZE PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1200,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 3,
+    "total": 3,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "vi-187",
+   "champion": "Vi",
+   "title": "Piltover Enforcer",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "187",
+   "of": "219",
+   "query": "riftbound Vi prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": []
+  },
+  {
+   "id": "lillia-189",
+   "champion": "Lillia",
+   "title": "Bashful Bloom",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "189",
+   "of": "219",
+   "query": "riftbound Lillia prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/137573482688",
+     "price": 9250,
+     "type": "bin",
+     "title": "Riftbound LILLIA BASHFUL BLOOM Metal Card EXCLUSIVE Prize Wall Promo PSA 10 (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1450,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 8,
+    "total": 8,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "masteryi-191",
+   "champion": "Master Yi",
+   "title": "Wuju Master",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "191",
+   "of": "219",
+   "query": "riftbound Master Yi prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [],
+   "disambig": "191|wuju master|unleashed|unl"
+  },
+  {
+   "id": "vex-193",
+   "champion": "Vex",
+   "title": "Gloomist",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "193",
+   "of": "219",
+   "query": "riftbound Vex prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [],
+   "rawMarket": {
+    "price": 1600,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   }
+  },
+  {
+   "id": "ivern-195",
+   "champion": "Ivern",
+   "title": "Green Father",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "195",
+   "of": "219",
+   "query": "riftbound Ivern prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": []
+  },
+  {
+   "id": "diana-197",
+   "champion": "Diana",
+   "title": "Scorn of the Moon",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "197",
+   "of": "219",
+   "query": "riftbound Diana prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/407182747265",
+     "price": 8500,
+     "type": "bin",
+     "title": "2026 Riftbound Unleashed EN Official Event Prize #197 Diana Metal PSA 10 GEM MT (or Best Offer)"
+    }
+   ],
+   "rawMarket": {
+    "price": 1899.99,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 25,
+    "total": 30,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "leblanc-199",
+   "champion": "LeBlanc",
+   "title": "Deceiver",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "199",
+   "of": "219",
+   "query": "riftbound LeBlanc prizewall psa 10",
+   "sales": [
+    {
+     "date": "2026-08-14",
+     "price": 3821,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/117343476026",
+     "title": "2026 RIFTBOUND: LEAGUE OF LEGENDS OFFICIAL EVENT PRIZE #199 LEBLANC PSA 10",
+     "type": "auction",
+     "bids": 19
+    },
+    {
+     "date": "2026-08-21",
+     "price": 3350,
+     "source": "ebay",
+     "via": "ebay-item",
+     "url": "https://www.ebay.com/itm/117358429504",
+     "title": "2026 RIFTBOUND LOL OFFICIAL EVENT PRIZE #199 LEBLANC - DECEIVER PSA 10",
+     "type": "auction",
+     "bids": 53
+    }
+   ],
+   "rawSales": [],
+   "asks": [
+    {
+     "seen": "2026-09-06",
+     "url": "https://www.ebay.com/itm/307155757125",
+     "price": 2225,
+     "type": "auction",
+     "title": "2026 RIFTBOUND LEAGUE OF LEGENDS UNL OFFICIAL EVENT PRIZE #199 LEBLANC PSA 10",
+     "bids": 10,
+     "ends": "2026-09-08"
+    }
+   ],
+   "rawMarket": {
+    "price": 2400,
+    "asOf": "2026-09-06",
+    "source": "tcgplayer-market"
+   },
+   "pop": {
+    "psa10": 19,
+    "total": 19,
+    "asOf": "2026-09-06",
+    "source": "psa-via-ebay"
+   }
+  },
+  {
+   "id": "khazix-201",
+   "champion": "Kha'Zix",
+   "title": "Voidreaver",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "201",
+   "of": "219",
+   "query": "riftbound Kha'Zix prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": []
+  },
+  {
+   "id": "poppy-203",
+   "champion": "Poppy",
+   "title": "Keeper of the Hammer",
+   "set": "UNL",
+   "setName": "Unleashed",
+   "number": "203",
+   "of": "219",
+   "query": "riftbound Poppy prizewall psa 10",
+   "sales": [],
+   "rawSales": [],
+   "asks": []
+  }
+ ],
+ "syncedAt": 1788764815512,
+ "syncAsOf": "2026-09-07"
+}

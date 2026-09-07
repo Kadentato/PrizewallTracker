@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Prizewall</title>
+  <meta name="theme-color" content="#2b2f36" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Prizewall" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,600&family=Inter:wght@400;500;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root { color-scheme: light; }
+    html, body {
+      margin: 0; padding: 0;
+      background:
+        radial-gradient(1200px 600px at 12% -8%, #eef1ee 0%, rgba(238,241,238,0) 60%),
+        radial-gradient(1000px 500px at 100% 0%, #f1ede4 0%, rgba(241,237,228,0) 55%),
+        #f4f1ea;
+    }
+    #root { min-height: 100vh; }
+  </style>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    // Compile app.jsx with the CLASSIC JSX runtime (uses the global React UMD).
+    // The automatic runtime would emit an ESM import that can't resolve without a bundler.
+    (async () => {
+      try {
+        const src = await (await fetch('app.jsx?t=' + Date.now(), { cache: 'no-store' })).text();
+        const { code } = Babel.transform(src, { presets: [['react', { runtime: 'classic' }]] });
+        (0, eval)(code);
+      } catch (e) {
+        document.getElementById('root').innerHTML =
+          '<pre style="font:13px monospace;color:#8E2C28;padding:24px;white-space:pre-wrap">' +
+          'App failed to load:\n' + (e && e.message) + '</pre>';
+        console.error(e);
+      }
+    })();
+  </script>
+</body>
+</html>
