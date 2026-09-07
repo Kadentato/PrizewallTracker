@@ -92,6 +92,10 @@ while ($listener.IsListening) {
         $null = ConvertFrom-Json $text   # validate before touching the file
         [System.IO.File]::WriteAllText((Join-Path $root "prizewall.json"), $text, (New-Object System.Text.UTF8Encoding($false)))
         Send-Text $res '{"ok":true}' "application/json" 200
+        # publish the new data to GitHub in the background so the hosted copy follows the local sync
+        if (Test-Path (Join-Path $root ".git")) {
+          Start-Process powershell -WindowStyle Hidden -ArgumentList "-NoProfile","-ExecutionPolicy","Bypass","-File",(Join-Path $root "publish.ps1"),"-NoSync"
+        }
       } catch {
         Send-Text $res ('{"error":' + (ConvertTo-Json $_.Exception.Message) + '}') "application/json" 400
       }

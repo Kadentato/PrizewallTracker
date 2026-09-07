@@ -24,12 +24,21 @@ The server is tiny on purpose: it serves the folder and exposes two routes the p
 
 ## How data gets in
 
-Open the site and it syncs by itself: any card not checked in the last day is queried as `PSA 10 [Champion] Prizewall`, new sales are merged (deduped by eBay item id, then by price and date) and saved. 130point allows only a few dozen queries an hour, so the first full pass takes a few windows; the page pauses and resumes on its own. "Sync 130point" in the header forces a pass.
+Open the site locally and it syncs by itself: any card not checked in the last day is queried as `PSA 10 [Champion] Prizewall`, new sales are merged (deduped by eBay item id, then by price and date) and saved. 130point allows only a few dozen queries an hour, so the first full pass takes a few windows; the page pauses and resumes on its own. "Sync 130point" in the header forces a pass. Every save is pushed to GitHub in the background, which refreshes the published snapshot.
+
+For hands-off updates, `publish.ps1` does the same sync from the command line and pushes the result, and `install-task.ps1` registers it as a Windows scheduled task every 6 hours:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File install-task.ps1
+```
+
+(130point blocks GitHub's own runners, so the collector has to run from a normal machine rather than as an Action.)
 
 `scrape130.py` is the same search as a standalone script, for when you want rows in a terminal:
 
 ```bash
 python scrape130.py "PSA 10 Teemo Prizewall"
+python scrape130.py --sync prizewall.json
 ```
 
 ## Files
@@ -40,4 +49,6 @@ python scrape130.py "PSA 10 Teemo Prizewall"
 | `app.jsx` | the app: board, card detail, charts, sync, Rift Score |
 | `prizewall.json` | the data — cards, confirmed sales, raw-metal sales, live asks, populations |
 | `serve.ps1` | static server + the two API routes |
-| `scrape130.py` | standalone 130point query |
+| `scrape130.py` | standalone 130point query and `--sync` merge |
+| `publish.ps1` | sync + commit + push (what the scheduled task runs) |
+| `install-task.ps1` | registers the 6-hourly Windows task |
