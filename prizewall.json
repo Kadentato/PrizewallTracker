@@ -1,5 +1,5 @@
 {
- "updatedAt": 1788771765855,
+ "updatedAt": 1788772066369,
  "asOf": "2026-09-07",
  "currency": "USD",
  "notes": [
@@ -3229,9 +3229,21 @@
    "number": "201",
    "of": "219",
    "query": "riftbound Kha'Zix prizewall psa 10",
-   "sales": [],
+   "sales": [
+    {
+     "date": "2026-09-06",
+     "price": 2769,
+     "source": "ebay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117374544547",
+     "title": "2026 RIFTBOUND: LEAGUE OF LEGENDS OFFICIAL EVENT PRIZE KHA'ZIX VOIDREAVER PSA 10",
+     "type": "auction",
+     "bids": 30
+    }
+   ],
    "rawSales": [],
-   "asks": []
+   "asks": [],
+   "synced130": 1788772061885
   },
   {
    "id": "poppy-203",
@@ -3244,9 +3256,10 @@
    "query": "riftbound Poppy prizewall psa 10",
    "sales": [],
    "rawSales": [],
-   "asks": []
+   "asks": [],
+   "synced130": 1788772066369
   }
  ],
- "syncedAt": 1788764815512,
+ "syncedAt": 1788772066369,
  "syncAsOf": "2026-09-07"
 }
