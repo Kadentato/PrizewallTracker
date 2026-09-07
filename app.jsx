@@ -1,6 +1,7 @@
 /* Prizewall — a tracker for Riftbound Plated Legends (metal Prize Wall promos) in PSA 10.
-   Confirmed sales only, USD. Data lives in prizewall.json (refreshed by Claude from chat).
-   In-app edits persist to localStorage and are merged by updatedAt, same pattern as comps. */
+   Confirmed sales only, USD. Data lives in prizewall.json, kept current by the 130point sync
+   (in-app when served locally, by the scheduled GitHub Action for the published copy).
+   In-app edits persist to localStorage and are merged by updatedAt. */
 
 const { useState, useMemo, useEffect, useRef, useCallback } = React;
 
@@ -641,7 +642,9 @@ function Detail({ card, r, onBack, onLogSale }) {
       )}
 
       <div className="refresh-hint small">
-        Out of date? Ask Claude: <code>refresh prizewall "{card.query}"</code> and confirmed solds, live asks and the PSA pop get appended here.
+        Sales come from 130point's record of completed eBay listings, searched as <code>PSA 10 {card.champion} Prizewall</code>
+        {card.synced130 ? <> · this card was last checked {ageLabel(new Date(card.synced130).toISOString().slice(0, 10))}</> : <> · this card has not been checked yet; it is queued for the next sync</>}.
+        Live asks and the PSA population are read from eBay listing pages and refreshed by hand.
       </div>
       {saleOpen && <SaleForm onSave={(s) => { onLogSale(s); setSaleOpen(false); }} onCancel={() => setSaleOpen(false)} />}
     </div>
@@ -795,7 +798,7 @@ function App() {
           )}
         </div>
       )}
-      {STATIC_HOST && <div className="synced-note">Published snapshot from {data.asOf ? fmtDate(data.asOf) : "the data file"} · the 130point sync runs on the local server and is pushed here with the repo</div>}
+      {STATIC_HOST && <div className="synced-note">Data as of {data.asOf ? fmtDate(data.asOf) : "the last sync"} · confirmed sales are pulled from 130point automatically a few times a day · {cards.filter((c) => c.synced130).length}/{cards.length} cards checked so far</div>}
       {!STATIC_HOST && !sync && cards.length > 0 && <div className="synced-note">{cards.filter((c) => Date.now() - (c.synced130 || 0) < SYNC_TTL).length}/{cards.length} cards checked against 130point in the last day · the sweep runs by itself while the site is open</div>}
 
       <div className="body">

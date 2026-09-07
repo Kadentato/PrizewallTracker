@@ -1,0 +1,40 @@
+name: Sync 130point sales
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # four times a day; only cards not checked in the last 24h are queried
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-130point
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Query 130point for stale cards and merge confirmed PSA 10 sales
+        id: sync
+        run: python scrape130.py --sync prizewall.json
+
+      - name: Commit updated data
+        if: steps.sync.outputs.checked != '0'
+        run: |
+          if git diff --quiet -- prizewall.json; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prizewall.json
+          git commit -m "Sync 130point: ${{ steps.sync.outputs.added }} new sale(s), ${{ steps.sync.outputs.checked }} card(s) checked"
+          git push

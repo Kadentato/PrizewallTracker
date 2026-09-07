@@ -61,7 +61,108 @@ def is_target(r):
     t = r["title"]
     return bool(PSA10.search(t) and METAL.search(t) and not EXCLUDE.search(t))
 
+# ---- sync mode: same rules as the app's mergeRows(), so the Action and the browser agree ----
+SYNC_TTL = 24 * 3600
+QUERY_GAP = 3.0
+
+def row_matches_card(r, card):
+    if not is_target(r): return False
+    if r["currency"] != "USD" or not r["price"] or not r["date"]: return False
+    t = r["title"]
+    champ = card["champion"].replace("'", "").lower()
+    plain = t.replace("'", "").lower()
+    dis = card.get("disambig")
+    if champ not in plain and not (dis and re.search(dis, t, re.I)): return False
+    if dis and not re.search(dis, t, re.I): return False
+    return True
+
+def item_id_of(s):
+    m = re.search(r"/itm/(\d+)", s.get("url") or "")
+    return m.group(1) if m else None
+
+def days(iso):
+    return datetime.strptime(iso[:10], "%Y-%m-%d").timestamp() / 86400
+
+def merge_rows(card, rows):
+    existing = card.get("sales") or []
+    ids = {i for i in (item_id_of(s) for s in existing) if i}
+    added = []
+    for r in rows:
+        if not row_matches_card(r, card): continue
+        if r["ebayId"] and r["ebayId"] in ids: continue
+        price = r["bestOffer"] if r["bestOffer"] > 0 else r["price"]
+        if any(abs(s["price"] - price) < 0.5 and abs(days(s["date"]) - days(r["date"])) <= 1.5 for s in existing + added): continue
+        sale = {"date": r["date"], "price": price, "source": "ebay" if r["via"] == "ebay" else r["via"], "via": "130point",
+                "url": r["url"], "title": r["title"],
+                "type": "offer" if r["bestOffer"] > 0 else ("auction" if "auction" in r["saleType"] else "bin")}
+        if r["bids"]: sale["bids"] = r["bids"]
+        if r["bestOffer"] > 0: sale["listed"] = r["price"]
+        added.append(sale)
+        if r["ebayId"]: ids.add(r["ebayId"])
+    return added
+
+class RateLimited(Exception):
+    def __init__(self, secs): super().__init__("rate limited"); self.secs = secs
+
+def fetch_or_limit(q):
+    try:
+        return fetch(q)
+    except urllib.error.HTTPError as e:
+        if e.code == 429:
+            try: secs = int(e.headers.get("Retry-After") or 3600)
+            except Exception: secs = 3600
+            raise RateLimited(secs)
+        raise
+
+def sync(path):
+    data = json.load(open(path, encoding="utf-8"))
+    cards = data["cards"]
+    now = time.time()
+    order = sorted(cards, key=lambda c: c.get("synced130") or 0)
+    added_total, done, limited = 0, 0, None
+    for c in order:
+        if now - (c.get("synced130") or 0) / 1000 < SYNC_TTL:
+            continue
+        q = "PSA 10 %s Prizewall" % c["champion"]
+        try:
+            rows = parse(fetch_or_limit(q))
+        except RateLimited as e:
+            limited = e.secs
+            print("130point rate limit hit; retry after %ds. Stopping this run." % e.secs)
+            break
+        except Exception as e:
+            print("ERR", c["id"], e); time.sleep(QUERY_GAP); continue
+        seen, uniq = set(), []
+        for r in rows:
+            k = r["ebayId"] or (r["title"] + str(r["date"]) + str(r["price"]))
+            if k in seen: continue
+            seen.add(k); uniq.append(r)
+        fresh = merge_rows(c, uniq)
+        if fresh:
+            c["sales"] = sorted((c.get("sales") or []) + fresh, key=lambda s: s["date"])
+            added_total += len(fresh)
+        c["synced130"] = int(time.time() * 1000)
+        done += 1
+        print("%-18s rows=%2d new=%d" % (c["id"], len(uniq), len(fresh)))
+        time.sleep(QUERY_GAP)
+    if done or added_total:
+        stamp = int(time.time() * 1000)
+        data["updatedAt"] = stamp
+        if added_total: data["asOf"] = datetime.utcnow().strftime("%Y-%m-%d")
+        if all(time.time() - (c.get("synced130") or 0) / 1000 < SYNC_TTL for c in cards): data["syncedAt"] = stamp
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=1, ensure_ascii=False); f.write("\n")
+    print("cards checked: %d, new sales: %d%s" % (done, added_total, ", rate-limited" if limited else ""))
+    # GitHub Actions reads these to decide whether to commit
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    if gh_out:
+        with open(gh_out, "a") as f:
+            f.write("added=%d\nchecked=%d\n" % (added_total, done))
+
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "--sync":
+        sync(sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "prizewall.json"))
+        return
     if len(sys.argv) > 1:
         rows = parse(fetch(" ".join(sys.argv[1:])))
         for r in rows:
