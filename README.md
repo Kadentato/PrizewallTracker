@@ -1,5 +1,7 @@
 # Prizewall
 
+**Live snapshot:** <https://kadentato.github.io/PrizewallTracker/> — read-only; the 130point sync runs on the local server below and is pushed here with the repo.
+
 What is a metal card actually worth — not what someone lists it for, but what the last person paid? Prizewall tracks every Riftbound **Plated Legend** (the metal Prize Wall promos from Regional Qualifiers) in **PSA 10**, using confirmed sales only, in USD, and ranks them with a small opportunity score.
 
 - 40 cards: 12 Origins, 4 Proving Grounds, 12 Spiritforged, 12 Unleashed

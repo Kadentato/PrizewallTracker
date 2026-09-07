@@ -149,6 +149,8 @@ function riftScore(card) {
    writes the merged data back (POST /api/save). Rows are filtered to the PSA 10 metal printing,
    USD only, and deduped against what is already on file by eBay item id, then by price+date. */
 const SYNC_TTL = 24 * 3600 * 1000;
+// On GitHub Pages there is no local server, so no proxy and no save: show the published snapshot read-only.
+const STATIC_HOST = /github\.io$/i.test(location.hostname);
 const RX_METAL = /metal|plated|prize\s*wall|prizewall|official event prize/i;
 const RX_PSA10 = /psa\s*(gem\s*(mt|mint)\s*)?10\b/i;
 const RX_EXCLUDE = /release event|prize pack|event promo|release promo|ogn-release|release prize|OGNX|nexus night|best[- ]of|1st place|1 of 1|signature|overnumber|worlds/i;
@@ -670,7 +672,7 @@ function App() {
       setData(chosen);
       setLoaded(true);
       // automatic sweep when the last 130point sync is older than a day (or never happened)
-      if (chosen.cards.some((c) => Date.now() - (c.synced130 || 0) > SYNC_TTL)) setTimeout(() => runSync(), 800);
+      if (!STATIC_HOST && chosen.cards.some((c) => Date.now() - (c.synced130 || 0) > SYNC_TTL)) setTimeout(() => runSync(), 800);
     })();
   }, []);
 
@@ -767,7 +769,7 @@ function App() {
         </div>
         <div className="top-actions">
           <button className="btn ghost" onClick={() => setMethod(true)}>How the score works</button>
-          <button className="btn primary" disabled={sync && sync.running} onClick={runSync}>{sync && sync.running ? "Syncing…" : "Sync 130point"}</button>
+          {!STATIC_HOST && <button className="btn primary" disabled={sync && sync.running} onClick={runSync}>{sync && sync.running ? "Syncing…" : "Sync 130point"}</button>}
         </div>
       </header>
       {sync && (
@@ -793,7 +795,8 @@ function App() {
           )}
         </div>
       )}
-      {!sync && cards.length > 0 && <div className="synced-note">{cards.filter((c) => Date.now() - (c.synced130 || 0) < SYNC_TTL).length}/{cards.length} cards checked against 130point in the last day · the sweep runs by itself while the site is open</div>}
+      {STATIC_HOST && <div className="synced-note">Published snapshot from {data.asOf ? fmtDate(data.asOf) : "the data file"} · the 130point sync runs on the local server and is pushed here with the repo</div>}
+      {!STATIC_HOST && !sync && cards.length > 0 && <div className="synced-note">{cards.filter((c) => Date.now() - (c.synced130 || 0) < SYNC_TTL).length}/{cards.length} cards checked against 130point in the last day · the sweep runs by itself while the site is open</div>}
 
       <div className="body">
         <aside className="side">
