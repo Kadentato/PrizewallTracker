@@ -24,7 +24,19 @@ def fetch(query, extra=None):
     data = {"query": query}
     if extra: data.update(extra)
     body = urllib.parse.urlencode(data).encode()
-    req = urllib.request.Request(ENDPOINT, data=body, headers={"User-Agent": UA, "Referer": "https://130point.com/sales/"})
+    headers = {
+        "User-Agent": UA,
+        "Referer": "https://130point.com/sales/",
+        "Origin": "https://130point.com",
+        "Accept": "text/html, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "X-Requested-With": "XMLHttpRequest",
+        "Sec-Fetch-Site": "same-site",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Dest": "empty",
+    }
+    req = urllib.request.Request(ENDPOINT, data=body, headers=headers)
     with urllib.request.urlopen(req, timeout=40) as r:
         return r.read().decode("utf-8", "ignore")
 
