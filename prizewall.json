@@ -1,5 +1,5 @@
 {
- "updatedAt": 1788772066369,
+ "updatedAt": 1788772076707,
  "asOf": "2026-09-07",
  "currency": "USD",
  "notes": [
@@ -3232,8 +3232,8 @@
    "sales": [
     {
      "date": "2026-09-06",
-     "price": 2769,
-     "source": "ebay",
+     "price": 2769.0,
+     "source": "eBay",
      "via": "130point",
      "url": "https://www.ebay.com/itm/117374544547",
      "title": "2026 RIFTBOUND: LEAGUE OF LEGENDS OFFICIAL EVENT PRIZE KHA'ZIX VOIDREAVER PSA 10",
@@ -3243,7 +3243,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1788772061885
+   "synced130": 1788772044842
   },
   {
    "id": "poppy-203",
@@ -3257,9 +3257,9 @@
    "sales": [],
    "rawSales": [],
    "asks": [],
-   "synced130": 1788772066369
+   "synced130": 1788772073705
   }
  ],
- "syncedAt": 1788772066369,
+ "syncedAt": 1788772076707,
  "syncAsOf": "2026-09-07"
 }
