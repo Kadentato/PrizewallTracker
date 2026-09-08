@@ -1,5 +1,5 @@
 {
- "updatedAt": 1788772076707,
+ "updatedAt": 1788858455619,
  "asOf": "2026-09-07",
  "currency": "USD",
  "notes": [
@@ -148,7 +148,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788768416420
+   "synced130": 1788858422777
   },
   {
    "id": "volibear-249",
@@ -267,7 +267,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788768419304
+   "synced130": 1788858426054
   },
   {
    "id": "jinx-251",
@@ -459,7 +459,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788768422418
+   "synced130": 1788858429388
   },
   {
    "id": "darius-253",
@@ -554,7 +554,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788768425351
+   "synced130": 1788858432658
   },
   {
    "id": "ahri-255",
@@ -1000,7 +1000,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788768428473
+   "synced130": 1788858435980
   },
   {
    "id": "leesin-257",
@@ -1071,7 +1071,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788768431327
+   "synced130": 1788858439260
   },
   {
    "id": "yasuo-259",
@@ -1167,7 +1167,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788768434361
+   "synced130": 1788858442569
   },
   {
    "id": "leona-261",
@@ -1371,7 +1371,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788768437401
+   "synced130": 1788858445857
   },
   {
    "id": "teemo-263",
@@ -1514,7 +1514,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788768440389
+   "synced130": 1788858449228
   },
   {
    "id": "viktor-265",
@@ -1554,7 +1554,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788768443612
+   "synced130": 1788858452538
   },
   {
    "id": "missfortune-267",
