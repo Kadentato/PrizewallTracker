@@ -3,7 +3,8 @@
 # Remove:    Unregister-ScheduledTask -TaskName "Prizewall 130point sync" -Confirm:$false
 $script = Join-Path $PSScriptRoot "publish.ps1"
 $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$script`""
-$trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(5) -RepetitionInterval (New-TimeSpan -Hours 6)
+# Four fixed daily times (a repeating "once" trigger does not reliably repeat on Windows 11).
+$triggers = @("02:07", "08:07", "14:07", "20:07") | ForEach-Object { New-ScheduledTaskTrigger -Daily -At $_ }
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 30)
-Register-ScheduledTask -TaskName "Prizewall 130point sync" -Action $action -Trigger $trigger -Settings $settings -Force | Out-Null
-Write-Host "Registered 'Prizewall 130point sync' (every 6 hours). First run in ~5 minutes."
+Register-ScheduledTask -TaskName "Prizewall 130point sync" -Action $action -Trigger $triggers -Settings $settings -Force | Out-Null
+Write-Host "Registered 'Prizewall 130point sync' at 02:07, 08:07, 14:07 and 20:07 daily."
