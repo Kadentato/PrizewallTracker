@@ -1,6 +1,6 @@
 {
- "updatedAt": 1788858455619,
- "asOf": "2026-09-07",
+ "updatedAt": 1789053292919,
+ "asOf": "2026-09-10",
  "currency": "USD",
  "notes": [
   "Sales are confirmed, completed transactions only: eBay sold listings read from the listing page itself, plus eBay and TCGplayer completed sales republished by PriceCharting for the six cards it catalogues. Active listings, ended-unsold listings and listings whose final price is hidden are never counted as sales.",
@@ -93,6 +93,25 @@
      "title": "Kai'sa - Daughter Of The Void 247 Prizewall Metal Card Riftbound PSA 10 *334",
      "type": "auction",
      "bids": 52
+    },
+    {
+     "date": "2026-09-09",
+     "price": 9500.0,
+     "source": "eBay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117384953536",
+     "title": "2025 PRIZEWALL #247 KAI'SA - DAUGHTER OF THE VOID PSA 10",
+     "type": "bin"
+    },
+    {
+     "date": "2026-09-10",
+     "price": 9700.0,
+     "source": "eBay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/800603907850",
+     "title": "2025 RIFTBOUND: LOL KAI'SA PRIZEWALL ORIGINS PLATED LEGENDS #247 PSA 10",
+     "type": "auction",
+     "bids": 48
     }
    ],
    "rawSales": [],
@@ -148,7 +167,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788858422777
+   "synced130": 1789053256940
   },
   {
    "id": "volibear-249",
@@ -267,7 +286,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788858426054
+   "synced130": 1789053260625
   },
   {
    "id": "jinx-251",
@@ -459,7 +478,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788858429388
+   "synced130": 1789053264360
   },
   {
    "id": "darius-253",
@@ -554,7 +573,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788858432658
+   "synced130": 1789053268181
   },
   {
    "id": "ahri-255",
@@ -871,6 +890,16 @@
      "title": "Ahri - Nine-Tailed Fox 255 Prizewall Metal Card Riftbound PSA 10 *609",
      "type": "auction",
      "bids": 52
+    },
+    {
+     "date": "2026-09-10",
+     "price": 15500.0,
+     "source": "eBay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/117402592253",
+     "title": "2025 PRIZEWALL #255 AHRI - NINE-TAILED FOX PSA 10",
+     "type": "offer",
+     "listed": 15500.0
     }
    ],
    "rawSales": [
@@ -1000,7 +1029,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788858435980
+   "synced130": 1789053272328
   },
   {
    "id": "leesin-257",
@@ -1071,7 +1100,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788858439260
+   "synced130": 1789053276191
   },
   {
    "id": "yasuo-259",
@@ -1167,7 +1196,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788858442569
+   "synced130": 1789053279602
   },
   {
    "id": "leona-261",
@@ -1371,7 +1400,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788858445857
+   "synced130": 1789053282897
   },
   {
    "id": "teemo-263",
@@ -1514,7 +1543,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788858449228
+   "synced130": 1789053286280
   },
   {
    "id": "viktor-265",
@@ -1554,7 +1583,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788858452538
+   "synced130": 1789053289916
   },
   {
    "id": "missfortune-267",
@@ -1822,7 +1851,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788768446371
+   "synced130": 1789052823042
   },
   {
    "id": "sett-269",
@@ -1862,7 +1891,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771262582
+   "synced130": 1789052852143
   },
   {
    "id": "annie-017",
@@ -1980,7 +2009,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771265994
+   "synced130": 1789052855804
   },
   {
    "id": "masteryi-019",
@@ -2206,7 +2235,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771275904
+   "synced130": 1789052875476
   },
   {
    "id": "rumble-181",
@@ -2225,7 +2254,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788771303449
+   "synced130": 1789052904265
   },
   {
    "id": "lucian-183",
@@ -2285,7 +2314,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788771306780
+   "synced130": 1789052908180
   },
   {
    "id": "draven-185",
@@ -2336,7 +2365,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771310061
+   "synced130": 1789052911497
   },
   {
    "id": "reksai-187",
@@ -2394,7 +2423,7 @@
      "title": "Rek'sai - Void Burrower 187 Prizewall Riftbound Metal PSA 10 SFD-SPIRITFORGED (or Best Offer)"
     }
    ],
-   "synced130": 1788771338701
+   "synced130": 1789052942667
   },
   {
    "id": "ornn-189",
@@ -2439,7 +2468,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1788771342290
+   "synced130": 1789052945955
   },
   {
    "id": "jax-193",
@@ -2507,7 +2536,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771345614
+   "synced130": 1789052949247
   },
   {
    "id": "irelia-195",
@@ -2655,7 +2684,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771348900
+   "synced130": 1789052952553
   },
   {
    "id": "azir-197",
@@ -2685,7 +2714,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788771352243
+   "synced130": 1789052955815
   },
   {
    "id": "ezreal-199",
@@ -2726,7 +2755,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771355523
+   "synced130": 1789052959717
   },
   {
    "id": "renata-201",
@@ -2766,7 +2795,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788771358816
+   "synced130": 1789052963324
   },
   {
    "id": "sivir-203",
@@ -2842,7 +2871,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771362336
+   "synced130": 1789052967285
   },
   {
    "id": "fiora-205",
@@ -2882,7 +2911,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788771365626
+   "synced130": 1789052970957
   },
   {
    "id": "jhin-181",
@@ -2915,7 +2944,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771373168
+   "synced130": 1789053000234
   },
   {
    "id": "rengar-183",
@@ -2948,7 +2977,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771385209
+   "synced130": 1789053036301
   },
   {
    "id": "pyke-185",
@@ -2981,7 +3010,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771414401
+   "synced130": 1789053045035
   },
   {
    "id": "vi-187",
@@ -3016,7 +3045,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1788771442496
+   "synced130": 1789053072939
   },
   {
    "id": "lillia-189",
@@ -3060,7 +3089,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771450629
+   "synced130": 1789053082589
   },
   {
    "id": "masteryi-191",
@@ -3075,7 +3104,7 @@
    "rawSales": [],
    "asks": [],
    "disambig": "191|wuju master|unleashed|unl",
-   "synced130": 1788771453946
+   "synced130": 1789053086551
   },
   {
    "id": "vex-193",
@@ -3094,7 +3123,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1788771482975
+   "synced130": 1789053113490
   },
   {
    "id": "ivern-195",
@@ -3108,7 +3137,7 @@
    "sales": [],
    "rawSales": [],
    "asks": [],
-   "synced130": 1788771493736
+   "synced130": 1789053123841
   },
   {
    "id": "diana-197",
@@ -3162,7 +3191,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771522250
+   "synced130": 1789053152755
   },
   {
    "id": "leblanc-199",
@@ -3218,7 +3247,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771550281
+   "synced130": 1789053195501
   },
   {
    "id": "khazix-201",
@@ -3243,7 +3272,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1788772044842
+   "synced130": 1789053224384
   },
   {
    "id": "poppy-203",
@@ -3257,7 +3286,7 @@
    "sales": [],
    "rawSales": [],
    "asks": [],
-   "synced130": 1788772073705
+   "synced130": 1789053253615
   }
  ],
  "syncedAt": 1788772076707,
