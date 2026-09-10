@@ -1,5 +1,5 @@
 {
- "updatedAt": 1789053292919,
+ "updatedAt": 1789074428889,
  "asOf": "2026-09-10",
  "currency": "USD",
  "notes": [
@@ -2098,7 +2098,7 @@
     "source": "psa-via-ebay"
    },
    "disambig": "019|bladesman|origins|ogs|proving",
-   "synced130": 1788771269279
+   "synced130": 1789074422492
   },
   {
    "id": "lux-021",
@@ -2191,7 +2191,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1788771272564
+   "synced130": 1789074425887
   },
   {
    "id": "garen-023",
@@ -3289,6 +3289,6 @@
    "synced130": 1789053253615
   }
  ],
- "syncedAt": 1788772076707,
+ "syncedAt": 1789074428889,
  "syncAsOf": "2026-09-07"
 }
