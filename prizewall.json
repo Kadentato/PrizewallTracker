@@ -1,5 +1,5 @@
 {
- "updatedAt": 1789074428889,
+ "updatedAt": 1789160996748,
  "asOf": "2026-09-10",
  "currency": "USD",
  "notes": [
@@ -1851,7 +1851,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789052823042
+   "synced130": 1789160822707
   },
   {
    "id": "sett-269",
@@ -1891,7 +1891,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789052852143
+   "synced130": 1789160854502
   },
   {
    "id": "annie-017",
@@ -2009,7 +2009,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789052855804
+   "synced130": 1789160857811
   },
   {
    "id": "masteryi-019",
@@ -2235,7 +2235,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789052875476
+   "synced130": 1789160861138
   },
   {
    "id": "rumble-181",
@@ -2254,7 +2254,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789052904265
+   "synced130": 1789160904448
   },
   {
    "id": "lucian-183",
@@ -2314,7 +2314,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789052908180
+   "synced130": 1789160907826
   },
   {
    "id": "draven-185",
@@ -2365,7 +2365,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789052911497
+   "synced130": 1789160911117
   },
   {
    "id": "reksai-187",
@@ -2423,7 +2423,7 @@
      "title": "Rek'sai - Void Burrower 187 Prizewall Riftbound Metal PSA 10 SFD-SPIRITFORGED (or Best Offer)"
     }
    ],
-   "synced130": 1789052942667
+   "synced130": 1789160941004
   },
   {
    "id": "ornn-189",
@@ -2468,7 +2468,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1789052945955
+   "synced130": 1789160944310
   },
   {
    "id": "jax-193",
@@ -2536,7 +2536,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789052949247
+   "synced130": 1789160947662
   },
   {
    "id": "irelia-195",
@@ -2684,7 +2684,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789052952553
+   "synced130": 1789160950988
   },
   {
    "id": "azir-197",
@@ -2714,7 +2714,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789052955815
+   "synced130": 1789160954334
   },
   {
    "id": "ezreal-199",
@@ -2755,7 +2755,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789052959717
+   "synced130": 1789160957621
   },
   {
    "id": "renata-201",
@@ -2795,7 +2795,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789052963324
+   "synced130": 1789160960976
   },
   {
    "id": "sivir-203",
@@ -2871,7 +2871,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789052967285
+   "synced130": 1789160964315
   },
   {
    "id": "fiora-205",
@@ -2911,7 +2911,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789052970957
+   "synced130": 1789160967597
   },
   {
    "id": "jhin-181",
@@ -2944,7 +2944,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053000234
+   "synced130": 1789160978387
   },
   {
    "id": "rengar-183",
@@ -2977,7 +2977,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053036301
+   "synced130": 1789160993679
   },
   {
    "id": "pyke-185",
