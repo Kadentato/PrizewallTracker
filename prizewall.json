@@ -1,5 +1,5 @@
 {
- "updatedAt": 1789160996748,
+ "updatedAt": 1789182638337,
  "asOf": "2026-09-10",
  "currency": "USD",
  "notes": [
@@ -167,7 +167,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053256940
+   "synced130": 1789182604957
   },
   {
    "id": "volibear-249",
@@ -286,7 +286,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789053260625
+   "synced130": 1789182608440
   },
   {
    "id": "jinx-251",
@@ -478,7 +478,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053264360
+   "synced130": 1789182611798
   },
   {
    "id": "darius-253",
@@ -573,7 +573,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053268181
+   "synced130": 1789182615232
   },
   {
    "id": "ahri-255",
@@ -1029,7 +1029,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053272328
+   "synced130": 1789182618636
   },
   {
    "id": "leesin-257",
@@ -1100,7 +1100,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053276191
+   "synced130": 1789182621913
   },
   {
    "id": "yasuo-259",
@@ -1196,7 +1196,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053279602
+   "synced130": 1789182625242
   },
   {
    "id": "leona-261",
@@ -1400,7 +1400,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053282897
+   "synced130": 1789182628613
   },
   {
    "id": "teemo-263",
@@ -1543,7 +1543,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053286280
+   "synced130": 1789182631996
   },
   {
    "id": "viktor-265",
@@ -1583,7 +1583,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789053289916
+   "synced130": 1789182635280
   },
   {
    "id": "missfortune-267",
@@ -3010,7 +3010,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053045035
+   "synced130": 1789182428139
   },
   {
    "id": "vi-187",
@@ -3045,7 +3045,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1789053072939
+   "synced130": 1789182458258
   },
   {
    "id": "lillia-189",
@@ -3089,7 +3089,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053082589
+   "synced130": 1789182486539
   },
   {
    "id": "masteryi-191",
@@ -3104,7 +3104,7 @@
    "rawSales": [],
    "asks": [],
    "disambig": "191|wuju master|unleashed|unl",
-   "synced130": 1789053086551
+   "synced130": 1789182489871
   },
   {
    "id": "vex-193",
@@ -3123,7 +3123,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789053113490
+   "synced130": 1789182498601
   },
   {
    "id": "ivern-195",
@@ -3247,7 +3247,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789053195501
+   "synced130": 1789182544250
   },
   {
    "id": "khazix-201",
@@ -3272,7 +3272,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1789053224384
+   "synced130": 1789182573059
   },
   {
    "id": "poppy-203",
@@ -3286,7 +3286,7 @@
    "sales": [],
    "rawSales": [],
    "asks": [],
-   "synced130": 1789053253615
+   "synced130": 1789182601597
   }
  ],
  "syncedAt": 1789074428889,
