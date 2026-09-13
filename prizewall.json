@@ -1,5 +1,5 @@
 {
- "updatedAt": 1789268969971,
+ "updatedAt": 1789290697518,
  "asOf": "2026-09-13",
  "currency": "USD",
  "notes": [
@@ -167,7 +167,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182604957
+   "synced130": 1789290663173
   },
   {
    "id": "volibear-249",
@@ -286,7 +286,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789182608440
+   "synced130": 1789290666508
   },
   {
    "id": "jinx-251",
@@ -478,7 +478,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182611798
+   "synced130": 1789290669868
   },
   {
    "id": "darius-253",
@@ -573,7 +573,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182615232
+   "synced130": 1789290673208
   },
   {
    "id": "ahri-255",
@@ -1029,7 +1029,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182618636
+   "synced130": 1789290676769
   },
   {
    "id": "leesin-257",
@@ -1100,7 +1100,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182621913
+   "synced130": 1789290680140
   },
   {
    "id": "yasuo-259",
@@ -1196,7 +1196,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182625242
+   "synced130": 1789290683591
   },
   {
    "id": "leona-261",
@@ -1400,7 +1400,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182628613
+   "synced130": 1789290687268
   },
   {
    "id": "teemo-263",
@@ -1543,7 +1543,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182631996
+   "synced130": 1789290690941
   },
   {
    "id": "viktor-265",
@@ -1583,7 +1583,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789182635280
+   "synced130": 1789290694515
   },
   {
    "id": "missfortune-267",
@@ -1851,7 +1851,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160822707
+   "synced130": 1789290422889
   },
   {
    "id": "sett-269",
@@ -2375,7 +2375,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160911117
+   "synced130": 1789290426403
   },
   {
    "id": "reksai-187",
@@ -2774,7 +2774,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160957621
+   "synced130": 1789290429742
   },
   {
    "id": "renata-201",
@@ -2814,7 +2814,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789160960976
+   "synced130": 1789290433057
   },
   {
    "id": "sivir-203",
@@ -2963,7 +2963,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160978387
+   "synced130": 1789290469820
   },
   {
    "id": "rengar-183",
@@ -3029,7 +3029,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182428139
+   "synced130": 1789290498747
   },
   {
    "id": "vi-187",
@@ -3064,7 +3064,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1789182458258
+   "synced130": 1789290507279
   },
   {
    "id": "lillia-189",
@@ -3108,7 +3108,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182486539
+   "synced130": 1789290536533
   },
   {
    "id": "masteryi-191",
@@ -3123,7 +3123,7 @@
    "rawSales": [],
    "asks": [],
    "disambig": "191|wuju master|unleashed|unl",
-   "synced130": 1789182489871
+   "synced130": 1789290539866
   },
   {
    "id": "vex-193",
@@ -3142,7 +3142,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789182498601
+   "synced130": 1789290571999
   },
   {
    "id": "ivern-195",
@@ -3266,7 +3266,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789182544250
+   "synced130": 1789290601590
   },
   {
    "id": "khazix-201",
@@ -3291,7 +3291,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1789182573059
+   "synced130": 1789290629759
   },
   {
    "id": "poppy-203",
@@ -3305,7 +3305,7 @@
    "sales": [],
    "rawSales": [],
    "asks": [],
-   "synced130": 1789182601597
+   "synced130": 1789290659730
   }
  ],
  "syncedAt": 1789204086580,
