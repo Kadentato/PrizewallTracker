@@ -1,6 +1,6 @@
 {
- "updatedAt": 1789204086580,
- "asOf": "2026-09-10",
+ "updatedAt": 1789268969971,
+ "asOf": "2026-09-13",
  "currency": "USD",
  "notes": [
   "Sales are confirmed, completed transactions only: eBay sold listings read from the listing page itself, plus eBay and TCGplayer completed sales republished by PriceCharting for the six cards it catalogues. Active listings, ended-unsold listings and listings whose final price is hidden are never counted as sales.",
@@ -1891,7 +1891,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160854502
+   "synced130": 1789268834679
   },
   {
    "id": "annie-017",
@@ -1972,6 +1972,16 @@
      "title": "Annie - Dark Child 017/024 Prizewall Metal Card Riftbound PSA 10 *333",
      "type": "auction",
      "bids": 26
+    },
+    {
+     "date": "2026-09-13",
+     "price": 2703.0,
+     "source": "eBay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/307163708177",
+     "title": "2025 RIFTBOUND LOL ORIGINS PRIZEWALL #017 ANNIE - DARK CHILD PSA 10",
+     "type": "auction",
+     "bids": 51
     }
    ],
    "rawSales": [],
@@ -2009,7 +2019,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160857811
+   "synced130": 1789268839132
   },
   {
    "id": "masteryi-019",
@@ -2235,7 +2245,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160861138
+   "synced130": 1789268842526
   },
   {
    "id": "rumble-181",
@@ -2254,7 +2264,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789160904448
+   "synced130": 1789268850651
   },
   {
    "id": "lucian-183",
@@ -2314,7 +2324,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789160907826
+   "synced130": 1789268854414
   },
   {
    "id": "draven-185",
@@ -2423,7 +2433,7 @@
      "title": "Rek'sai - Void Burrower 187 Prizewall Riftbound Metal PSA 10 SFD-SPIRITFORGED (or Best Offer)"
     }
    ],
-   "synced130": 1789160941004
+   "synced130": 1789268886340
   },
   {
    "id": "ornn-189",
@@ -2468,7 +2478,7 @@
    ],
    "rawSales": [],
    "asks": [],
-   "synced130": 1789160944310
+   "synced130": 1789268890113
   },
   {
    "id": "jax-193",
@@ -2536,7 +2546,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160947662
+   "synced130": 1789268893509
   },
   {
    "id": "irelia-195",
@@ -2645,6 +2655,15 @@
      "title": "2026 PRIZEWALL #195 IRELIA - BLADE DANCER PSA 10",
      "type": "offer",
      "listed": 5865
+    },
+    {
+     "date": "2026-09-12",
+     "price": 5200.0,
+     "source": "eBay",
+     "via": "130point",
+     "url": "https://www.ebay.com/itm/298660093938",
+     "title": "2026 PRIZEWALL #195 IRELIA - BLADE DANCER PSA 10",
+     "type": "bin"
     }
    ],
    "rawSales": [],
@@ -2684,7 +2703,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160950988
+   "synced130": 1789268898596
   },
   {
    "id": "azir-197",
@@ -2714,7 +2733,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789160954334
+   "synced130": 1789268902423
   },
   {
    "id": "ezreal-199",
@@ -2871,7 +2890,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160964315
+   "synced130": 1789268924473
   },
   {
    "id": "fiora-205",
@@ -2911,7 +2930,7 @@
     "asOf": "2026-09-06",
     "source": "tcgplayer-market"
    },
-   "synced130": 1789160967597
+   "synced130": 1789268928321
   },
   {
    "id": "jhin-181",
@@ -2977,7 +2996,7 @@
     "asOf": "2026-09-06",
     "source": "psa-via-ebay"
    },
-   "synced130": 1789160993679
+   "synced130": 1789268966967
   },
   {
    "id": "pyke-185",
